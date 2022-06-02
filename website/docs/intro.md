@@ -1,7 +1,6 @@
 ---
-id: doc1
+sidebar_position: 1
 title: このドキュメントについて
-sidebar_label: このドキュメントについて
 slug: /
 ---
 
