@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmyjavadoc=self.webpackChunkmyjavadoc||[]).push([[2188],{4350:function(a){a.exports=JSON.parse('{"label":"docusaurus","permalink":"/learning-java-doc/blog/tags/docusaurus","allTagsPath":"/learning-java-doc/blog/tags","count":4}')}}]);
