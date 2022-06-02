@@ -23,7 +23,9 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.21"
+    "@docusaurus/module-type-aliases": "2.0.0-beta.21",
+    "textlint": "^12.1.1",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0"
   },
   "browserslist": {
     "production": [
