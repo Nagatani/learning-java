@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmyjavadoc=self.webpackChunkmyjavadoc||[]).push([[9027],{3774:function(a){a.exports=JSON.parse('{"label":"facebook","permalink":"/learning-java-doc/blog/tags/facebook","allTagsPath":"/learning-java-doc/blog/tags","count":1}')}}]);
