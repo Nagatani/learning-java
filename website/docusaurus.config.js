@@ -9,19 +9,16 @@ const config = {
   title: 'learning-java-doc',
   tagline: 'Dinosaurs are cool',
   url: 'https://nagatani.github.io/',
-  baseUrl: '/learning-java-doc/',
+  baseUrl: '/learning-java/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Nagatani', // Usually your GitHub org/user name.
-  projectName: 'learning-java-doc', // Usually your repo name.
+  organizationName: 'Nagatani',
+  projectName: 'learning-java',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'ja',
     locales: ['ja'],
