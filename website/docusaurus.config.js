@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'learning-java-doc',
-  tagline: 'Dinosaurs are cool',
+  title: 'Javaプログラミング入門',
+  tagline: '大学の講義資料を棚卸ししたものです。',
   url: 'https://nagatani.github.io/',
   baseUrl: '/learning-java/',
   onBrokenLinks: 'throw',
@@ -44,9 +44,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Javaプログラミング入門',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Javaプログラミング入門',
           src: 'img/logo.svg',
         },
         items: [
@@ -55,11 +55,6 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Documents',
-          },
-          {
-            href: 'https://github.com/Nagatani/learning-java-doc',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
