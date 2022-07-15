@@ -66,17 +66,17 @@ SDKMANについて、詳しくは以下のリンク先をみてください。
     - `SDKMAN 5.15.0`のようなバージョン情報が出力されていればOKです。
 5. 使用しているターミナルソフトウェアに合わせて環境変数を設定
 
-zshを使用している場合は以下のコマンドを使用します。
+macOSのターミナルソフトウェアとして、zshを使用している場合は以下のコマンドを使用します。（`$`は入力しません）
 
 ```zsh
-echo 'export JAVA_HOME=$HOME/.sdkman/candidates/java/current' >> ~/.zprofile
-echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.zprofile
-source ~/.zprofile
+$ echo 'export JAVA_HOME=$HOME/.sdkman/candidates/java/current' >> ~/.zprofile
+$ echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.zprofile
+$ source ~/.zprofile
 ```
 
 これらの環境変数の設定は、他のJavaを参照するアプリケーションのために設定しておきます。
 
-## AdoptOpenJDKインストール
+## OpenJDKインストール
 
 1. ターミナルを起動
 2. $ `sdk list java` で現在インストール可能なJavaを一覧表示できます。
