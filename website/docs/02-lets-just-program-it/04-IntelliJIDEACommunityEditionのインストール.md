@@ -30,7 +30,7 @@ Toolboxを開くと、初回はライセンスへの同意と言語の選択が�
 
 IntelliJ IDEA Community EditionをToolboxよりインストールします。
 
-![](/docs/01/SCR-20220413-ojf.png)
+![](/docs/02/SCR-20220413-ojf.png)
 
 ダウンロードは、学内で一斉に行うと間違いなく失敗します。
 ダウンロード失敗時の不具合などは、場合によってはサポート出来ない状況になる可能性もあります。
@@ -43,18 +43,18 @@ IntelliJ IDEA Community EditionをToolboxよりインストールします。
 初回の起動時には、UIの設定などさまざまな質問がされます。以下のように進めればOKです。
 
 1. 利用規約の同意を行います。
-    - ![](/docs/01/Intelli001.png)
+    - ![](/docs/02/Intelli001.png)
 2. 利用状況の送信可否を決定します。
-    - ![](/docs/01/Intelli002.png)
+    - ![](/docs/02/Intelli002.png)
 
 ### IntelliJ IDEAの日本語化
 英語のままで良い場合、この手順は飛ばしてください。
 
-![](/docs/01/SCR-20220413-ovo.jpeg)
+![](/docs/02/SCR-20220413-ovo.jpeg)
 
 以下の画像を参考に日本語化のプラグイン「Japanese Language Pack」をインストールします。
 
-![](/docs/01/SCR-20220413-owl.png)
+![](/docs/02/SCR-20220413-owl.png)
 
 インストール後は、IDEを再起動するように求められますので、IntelliJIDEAを再起動してください。
 
@@ -62,18 +62,18 @@ IntelliJ IDEA Community EditionをToolboxよりインストールします。
 
 新規プロジェクトの画面にて、初回のみJava SDKの設定を行います。
 
-![](/docs/01/SCR-20220413-p2d.jpeg)
+![](/docs/02/SCR-20220413-p2d.jpeg)
 
 新規SDKの画面にて、インストールしたJava SDKのバージョンのホームディレクトリを指定します。
 
-![](/docs/01/SCR-20220413-p33.jpeg)
+![](/docs/02/SCR-20220413-p33.jpeg)
 
 この講義の指示通りにインストールしているなら、Java17が出ているはずですが、もし出ていなければサポートしますので教えてください。
 
 
 ### プロジェクトを作成してみよう
 
-![](/docs/01/SCR-20220413-pfh.jpeg)
+![](/docs/02/SCR-20220413-pfh.jpeg)
 
 次回以降は課題などの設問ごとにプロジェクトを作成しますので、プロジェクト名などの指示がある場合には、その指示にしたがってください。
 
@@ -82,12 +82,12 @@ IntelliJ IDEA Community EditionをToolboxよりインストールします。
 
 画面左側にあるプロジェクトパネルより、srcフォルダを右クリック→「new」→「Java class」を選びます。
 
-![](/docs/01/idea06-2.png)
+![](/docs/02/idea06-2.png)
 
 新規にクラスを作成します。名前は任意で良いですが、必ず大文字からはじめてください。
 今回は、「HelloIdea」としています。
 
-![](/docs/01/idea07-2.png)
+![](/docs/02/idea07-2.png)
 
 この時、「.java」などの拡張子の指定は不要です。
 
@@ -149,7 +149,7 @@ IDEが提供しているコードの入力サポートが使える場合は、�
 
 mainメソッドが存在しているクラスは、クラス単体で実行ができます。IntelliJ IDEAでは、メソッド単位での実行もサポートされます。
 
-![](/docs/01/idea08.png)
+![](/docs/02/idea08.png)
 
 適当なプログラムを作成して、実行してみましょう。
 
