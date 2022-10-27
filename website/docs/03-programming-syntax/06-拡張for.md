@@ -1,5 +1,5 @@
 ---
-title: "拡張forを使った配列要素の取り出し"
+title: "拡張for（for-each）"
 sidebar_position: 6
 ---
 
