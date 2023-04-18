@@ -1,0 +1,8 @@
+{
+  "label": "標準APIを使おう",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "もともとあるものは積極的に使おう。Javaの標準APIを使うことで、自分がクラスを作成する場合の参考にしよう。"
+  }
+}
