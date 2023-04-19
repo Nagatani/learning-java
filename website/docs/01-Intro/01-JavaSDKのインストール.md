@@ -33,7 +33,7 @@ Javaでの開発を始める前に、開発を行う企業やコミュニティ�
 
 この講義で使用するJavaのバージョンは、OpenJDKと呼ばれるオープン版のJDKを使用し、以下の開発バージョンを使います。
 
-- `OpenJDK 17.0.2 (jdk.java.net)`
+- `OpenJDK 17.0.6 (Microsoft)`
 
 ※この資料作成時点のLTS版（長期サポート対応バージョン）の中でもっとも新しいものを使用しています。
 
@@ -56,7 +56,7 @@ SDKMANについて、詳しくは以下のリンク先をみてください。
     - $ `source "$HOME/.sdkman/bin/sdkman-init.sh"`
 4. 以下のコマンドで正しくインストールされたかを確認する
     - $ `sdk version`
-    - `SDKMAN 5.15.0`のようなバージョン情報が出力されていればOKです。（この数字よりも大きい数字になっていればOKです。）
+    - `sdkman 5.18.1`のようなバージョン情報が出力されていればOKです。
 5. 使用しているターミナルソフトウェアに合わせて環境変数を設定
 
 macOSのターミナルソフトウェアとして、zshを使用している場合は以下のコマンドを使用します。（`$`は入力しません）
@@ -72,17 +72,20 @@ $ source ~/.zprofile
 ## OpenJDKインストール
 
 1. ターミナルを起動
-2. $ `sdk list java` で現在インストール可能なJavaを一覧表示できます。
-3. $ `sdk install java 17.0.2-open` でJava11がインストールされます。
+2. $ `sdk list java` で現在インストール可能なJavaを一覧表示できます。（開かれたテキストはvi形式です。次の行はエンターキー、次のページはスペースキー、閉じる場合は`:q`と入力します。）
+3. $ `sdk install java 17.0.6-ms` でJDKがインストールされます。
 4. $ `java -version` でインストールされたJDKのバージョンが正しいか確認します。
 
 以下のようにバージョン情報が出力されていればOKです。
 
 ```
-openjdk 17.0.2 2022-01-18
-OpenJDK Runtime Environment (build 17.0.2+8-86)
-OpenJDK 64-Bit Server VM (build 17.0.2+8-86, mixed mode, sharing)
+openjdk 17.0.6 2023-01-17 LTS
+OpenJDK Runtime Environment Microsoft-7209853 (build 17.0.6+10-LTS)
+OpenJDK 64-Bit Server VM Microsoft-7209853 (build 17.0.6+10-LTS, mixed mode)
 ```
+
+これでJDKの用意は完了です。
+
 
 ## 複数バージョンのJDKをインストールした場合
 
@@ -92,8 +95,11 @@ SDKMANでJDKのバージョンを切り替えたい場合は、以下のよう�
 
 ```bash
 sdk list java                  # インストール可能なバージョンとインストール済みのバージョンを確認
-sdk use java 17.0.2-open       # 現在のターミナルで使用するバージョンを設定
-sdk default java 17.0.2-open   # 標準で使用するバージョンを設定
+sdk use java 17.0.6-ms         # 現在のターミナルで使用するバージョンを設定
+sdk default java 17.0.6-ms     # 標準で使用するバージョンを設定
 ```
+
+
+
 
 
