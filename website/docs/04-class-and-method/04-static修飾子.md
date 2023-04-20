@@ -3,7 +3,7 @@ title: static修飾子
 sidebar_position: 4
 ---
 
-クラスのフィールドやメソッドをクラスをインスタンス化することなく使用したい場合はstatic修飾子を使う
+クラスのフィールドやメソッドをクラスをインスタンス化することなく使用したい場合はstatic修飾子を使いますが、注意点も多数あります。
 
 ## static
 毎度おなじみmainメソッドに指定してある修飾子です。
@@ -109,3 +109,47 @@ staticは静的なフィールドやメソッドを作成したい場合に使�
 
 staticは便利な反面、影響範囲を良く理解しないと危険です。
 乱用は避けましょう。
+
+
+## 補足: staticインポート
+
+staticで修飾されたフィールドやメソッドなどのメンバーにアクセスする際、必ずクラス名を先に書く必要があります。それ自体は問題ないと思いますが、クラス名を毎回書くことで可読性が下がる場合も存在します。  
+そこで、staticインポートを使うことで、クラス名を書かなくても直接staticメンバーにアクセスできるようになります。
+
+たとえば、`java.lang.Math.PI`を使用する場合を想定します。
+
+```java
+public class Sample {
+    public static void main(String[] args) {
+        System.out.println(Math.PI);  // Mathはjava.langのパッケージなので、別途インポートは必要ありませんが「Math」は毎回書かなければいけません。
+    }
+}
+```
+
+以下のようにstaticインポートを書くことで、`Math.PI`を`PI`だけで使用することができるようになります。
+
+```java
+import static java.lang.Math.PI;  // Math.PIを staticインポート
+
+public class Sample {
+    public static void main(String[] args) {
+        System.out.println(PI);
+    }
+}
+```
+
+また、クラス内のstaticメンバーをオンデマンドインポートの例を次に示します。
+
+```java
+import static java.lang.Math.*;
+public class Sample {
+    public static void main(String[] args) {
+        double r = cos(PI * theta);
+        System.out.println(r);
+    }
+}
+```
+
+staticインポートは、頻繁にstaticメンバーにアクセスする必要がある場合に使用しましょう。  
+ただし、使いすぎると名前空間が煩雑になり可読性と保守性が低下します。適切な使用を心がけ、ソースコードの可読性向上を意識しましょう。
+
