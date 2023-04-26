@@ -72,10 +72,8 @@ $ jar オプション jarファイル名 含めるクラスファイル…
 
 カレントディレクトリ以下のJavaクラスをすべてsample.jarという名前でパッケージングするには、以下のようにコマンドオプションを指定します。
 
-サンプルソースはmoodleにアップロードしています。
-
 ```bash
-$ javac jp/ac/ait/oop1/JarSample.java
+$ javac JarSample.java
 $ jar -cf JarSample.jar .
 ```
 
@@ -88,7 +86,7 @@ $ jar -cf JarSample.jar .
 
 ```
 Manifest-Version: 1.0
-Main-Class: jp/ac/ait/oop1/JarSample
+Main-Class: JarSample
 ```
 
 Main-Classオプションで、jarファイル自体のメインクラスを指定します。
