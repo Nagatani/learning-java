@@ -1,0 +1,8 @@
+{
+  "label": "コードを便利にまとめる",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "練習課題を通じて、役割ごとでのコードの分割と継承によるコードのまとめ方を考えてみましょう。"
+  }
+}
