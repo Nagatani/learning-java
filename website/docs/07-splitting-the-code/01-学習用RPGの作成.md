@@ -228,8 +228,8 @@ mainメソッド内でのゲームの進行（主要な部分のみ）は以下�
 
 ###  攻撃結果クラス (AttackResult.java)
 
-<details><summary>クリックで表示する</summary>
-<p>
+
+
 
 ```java
 package jp.ac.learning;
@@ -252,14 +252,14 @@ public class AttackResult {
 }
 
 ```
-</p>
-</details>
+
+
 
 
 ### 勇者クラス (Hero.java)
 
-<details><summary>クリックで表示する</summary>
-<p>
+
+
 
 ```java
 package jp.ac.learning;
@@ -351,13 +351,13 @@ public class Hero {
     }
 }
 ```
-</p>
-</details>
+
+
 
 ### 敵クラス (Enemy.java)
 
-<details><summary>クリックで表示する</summary>
-<p>
+
+
 
 ```java
 package jp.ac.learning;
@@ -449,14 +449,14 @@ public class Enemy {
     }
 }
 ```
-</p>
-</details>
+
+
 
 
 ### メインクラス(SimpleRPG.java)
 
-<details><summary>クリックで表示する</summary>
-<p>
+
+
 
 ```java
 package jp.ac.learning;
@@ -594,5 +594,4 @@ public class SimpleRPG {
     }
 }
 ```
-</p>
-</details>
+
