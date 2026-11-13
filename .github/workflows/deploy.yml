@@ -9,12 +9,17 @@ jobs:
       run:
         working-directory: website
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 22
+        cache: npm
+        cache-dependency-path: website/package-lock.json
     - name: git config
       run: |
         git config --global user.email "github-action-nagatani@users.noreply.github.com"
         git config --global user.name "gh-actions"
-    - run: npm install
+    - run: npm ci
     - run: npm run deploy
       env:
         GIT_USER: ${{ github.actor }}:${{ github.token }}
