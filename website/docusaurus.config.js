@@ -44,6 +44,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'successor-techbook-java-primer',
+        content:
+          'このサイトは更新を終了しています。後継の教材 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Nagatani/techbook-java-primer">techbook-java-primer</a> をご覧ください。',
+        backgroundColor: '#fff3cd',
+        textColor: '#664d03',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Javaプログラミング入門',
         logo: {
@@ -56,6 +64,11 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Documents',
+          },
+          {
+            href: 'https://github.com/Nagatani/techbook-java-primer',
+            label: '後継の教材はこちら',
+            position: 'right',
           },
         ],
       },

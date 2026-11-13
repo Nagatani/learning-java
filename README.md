@@ -1,5 +1,9 @@
 # Javaプログラミング入門
 
+> [!IMPORTANT]
+> **このリポジトリは更新を終了しています。**  
+> 後継の教材として [Nagatani/techbook-java-primer](https://github.com/Nagatani/techbook-java-primer) を用意していますので、今後はそちらをご覧ください。
+
 https://nagatani.github.io/learning-java/
 
 
